@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import Banner from '../Main/Banner'
 
 const Home = () => {
     useEffect(() => {
@@ -7,7 +8,10 @@ const Home = () => {
 
     return (
         <div>
-            Home
+            <div className='relative'>
+            <Banner/>
+            </div>
+            
         </div>
     );
 };

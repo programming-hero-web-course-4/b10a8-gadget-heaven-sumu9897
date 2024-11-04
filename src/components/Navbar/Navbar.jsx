@@ -100,7 +100,7 @@ const NavBar = () => {
                     </div>
                     <ul className="items-center gap-[20px] text-[1rem] text-gray-600 flex flex-col">
                         <NavLink to="/"><li className="navBarLink">Home</li></NavLink>
-                        <NavLink to="/statistics"><li className="navBarLink">Coffees</li></NavLink>
+                        <NavLink to="/statistics"><li className="navBarLink">Statistics</li></NavLink>
                         <NavLink to="/dashboard"><li className="navBarLink">Dashboard</li></NavLink>
                     </ul>
                 </aside>
