@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
-import Banner from '../Main/Banner'
+import Banner from '../components/Banner'
+import Products from "../components/Products";
 
 const Home = () => {
     useEffect(() => {
@@ -11,6 +12,7 @@ const Home = () => {
             <div className='relative'>
             <Banner/>
             </div>
+            <Products></Products>
             
         </div>
     );

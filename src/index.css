@@ -1,34 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* https://github.com/programming-hero-web-course-4/b10a8-gadget-heaven-shafriki */
 
-nav a.active {
-    color:#9538e2;
-    position: relative;
-    transition: all 0.3s ease;
-}
+.active-link {
+    font-weight: bold; 
+    color: orange;
 
-nav a.active::before {
-    content: '';
-    width: 100%;
-    background-color: #9538e2;
-    height: 2px;
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    border-radius: 9999px;
-    transition: all 0.3s ease;
 }
-
-nav a {
-    transition: all 0.3s ease;
-}
-
-nav a:hover {
-    color: #9538e2;
-    cursor: pointer;
-}
-
-nav a.active:hover {
-    text-decoration: none;
-}
+/* * {
+    border: 1px solid red;
+} */
